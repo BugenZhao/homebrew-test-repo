@@ -1,13 +1,6 @@
 [package]
 name = "homebrew-test-repo"
-version = "0.2.0"
+version = "0.3.0"
 edition = "2021"
 
 [dependencies]
-protobuf-native = "0.2.1"
-rdkafka = { version = "0.36.2", features = [
-    "cmake-build",
-    "gssapi",
-    "ssl-vendored",
-    "zstd",
-] }
